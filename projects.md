@@ -1,97 +1,83 @@
-<head>
-<style>
-mark { 
-  background-color: white;
-  color: rgb(51, 87, 128);
-}
-</style>
-</head>
-
-<h1> RESEARCH </h1>
-
-<hr style="height:3px; background-color:black; border:0;">
-
-
-<h2>Optimal/Learning-based Control</h2>
-**\*Funded by NRF (보행장애 완전극복 웨어러블 로봇기술을 위한 인간운동제어이론 연구)**
-<br>
-**\*\*Project goal: Human-integrated control for wearable robots to completely overcome gait disorders**
-
-
+---
+layout: default
+title: Research
 ---
 
-### <mark>MPC-based Stride-to-Stride Reference Trajectory Generation</mark>
-{% include youtube.html id="DeFXXFtqL-Y" %}
-_(Under progress)_
-<br>
-The research aims to one-stride reference generation for a biped robot suffering high-level disturbances, including modeling errors and external forces. A conservative one-stride reference is generated, which will be tracked by low-level control. The generated reference considers not only ZMP-based stable motion but also static transition between each gait.
+# Research
 
----
+My work connects learning-based control, model-based control, and physical robot systems. My current focus is humanoid robotics; my earlier work explored wearable robot control and soft sensing for human–robot interaction.
 
-### <mark>Transfer of style to robots with limited DOFs</mark>
-{% include youtube.html id="wcGt7EAkdVg" %}
-_(Under progress)_
-<br>
-Generating natural-looking joint trajectories is crucial for wearable robots, while also ensuring the wearer's safety and maintaining reasonable energy consumption. This study aims to transfer human walking styles to a robot with limited degrees of freedom (DOFs) using [Adversarial Motion Priors](https://arxiv.org/abs/2104.02180), all while strictly adhering to safety constraints and optimizing for energy efficiency.
+## Current Focus: Humanoid Robotics
 
----
-### <mark>Robust controller for wearable robots</mark>
-<!-- {% include youtube.html id="dueZzaKWLBw" %} -->
-{% include youtube.html id="u0uSIhfIuNE" %}
-_(Under progress)_
-<br>
-Controlling a wearable robot necessitates accounting for unobservable, nonlinear, and non-periodic disturbances from its user. This project aims to develop a robust controller by combining learning-based and model-based control approaches. Additionally, the human walking style is transferred to the robot’s joint trajectory, taking into consideration the safe range of motion and the specific needs of real-world patients.
+### Learning-based locomotion and sim-to-real transfer
 
----
+I work on reinforcement learning for humanoid locomotion, with an emphasis on reliable deployment on physical robots. This includes modeling actuator behavior, designing simulation environments, and accounting for the differences between simulated and real control systems.
 
-<br>
-<h2> Human-Computer Interaction </h2>
-**\*Funded by NRF (생체신호센서융합기술개발사업)**
-<br>
-**\*\*Project goal: Human-robot high-speed synchronization**
+### Coordinated locomotion and manipulation
 
----
-### <mark>Improvement of gesture recognition</mark>
-<img src="images/gesture_static/GesturesAccuracy.png?raw=true"/>
-<br>
-Our study focused on extracting high-resolution features from the passive elastic elements of the human body, achieving 98.0% accuracy in classifying 28 gestures. In comparison, the baseline method using an 8-channel sEMG system (Delsys, USA) reached 93.1% accuracy. The experiment involved 10 subjects and was evaluated using 5-fold cross-validation.
-<br>
-- Published in the [*IEEE Transactions on Industrial Informatics*](https://ieeexplore.ieee.org/abstract/document/10136753)
+I am exploring how learning-based control of the lower body can work with model-based control of the arms. The goal is to coordinate balance, positioning, and precise manipulation on humanoids with different actuator characteristics across the body.
 
----
-### <mark>Robust real-world application of gesture recognition</mark>
-{% include youtube.html id="spRBrlzH1nE" %}
-_(Paper in preparation)_
-<br>
-Research on gesture recognition frequently overlooks considerations relevant to real-world applications. In this study, we investigated the key factors influencing gesture recognition in the presence of dynamic arm movements. Based on our analysis, we proposed optimized sensor placement, training methods, and classification algorithms specifically designed for practical deployment. Additionally, we introduced a reliable method for eliminating out-of-distribution data, enhancing the robustness of the system in real-world scenarios.
-<br>
-Details will be released later.
+### Actuator dynamics and real-time control
 
----
-### <mark>Real-time gait analysis for soft wearable robots</mark>
-{% include youtube.html id="vO7Zg8ciqf0" %}
-{% include youtube.html id="fRwCSk-NRls" %}
-_(Under progress)_
-<br>
-Most gait analysis methods rely on IMUs or encoders; however, these sensor systems necessitate rigid mounts, often resulting in misalignment issues. To overcome this challenge, we developed a soft sensor system with an ergonomic design and optimized our algorithm to enable robust, real-time analysis of gait phases and modes.
-<br>
-- A very early step of this study was announced in the [*IEEE ICCAS 2021*](https://ieeexplore.ieee.org/document/9649762)
-- Another early step was announced in the [*IFAC MECHATRONICS 2022*](https://www.sciencedirect.com/science/article/pii/S240589632202612X)
+My work also involves actuator characterization and integration of learned policies with low-level robot control. Understanding the relationship between the drivetrain, feedback controller, and policy is essential for reliable hardware behavior.
 
----
+## Earlier Research: Wearable Robot Control
 
-<br>
-## Courseworks
----
+Research at KAIST's EXO Lab, supported by the National Research Foundation of Korea (NRF) project on human motor control theory for wearable robots to overcome gait disorders.
 
-### <mark>Momentum Frame: Training Physics from Momentum Information</mark>
-{% include youtube.html id="tmLDXB6z8Mc" %}
-<br>
-CS570 - Artificial Intelligence and Machine Learning
+### MPC-based stride-to-stride reference generation
 
-Traditional physics simulations, such as MPM, require significant computational resources because they process information from each point individually. We proposed a compressed and accelerated physics simulation based on deep learning, utilizing N2N learning and a combination of MSE and GAN loss. Our model can generate an entire sequence from a single input frame and operates more than 50 times faster than the baseline MPM method.
+{% include youtube.html id="DeFXXFtqL-Y" title="MPC-based stride-to-stride reference generation" %}
 
-The network utilizes MSE loss to reconstruct the underlying physics, while the GAN structure helps prevent collapse from repeated generation by maintaining the stability of the input distribution. Additionally, the [CoordConv layer](https://arxiv.org/abs/1807.03247) was introduced to model potential energy, which significantly enhances the quality of the results.
-<br>
-<!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
-<!-- Remove above link if you don't want to attibute -->
+This project investigated model predictive control for generating a one-stride reference trajectory for bipedal robots under modeling errors and external disturbances. The reference accounts for zero moment point (ZMP) stability and transitions between gait phases, providing a trajectory for a low-level controller to track.
+
+### Transferring human motion to robots with limited degrees of freedom
+
+{% include youtube.html id="wcGt7EAkdVg" title="Human motion transfer to wearable robots" %}
+
+This work explored transferring human walking styles to wearable robots with limited degrees of freedom using [Adversarial Motion Priors](https://arxiv.org/abs/2104.02180). The aim was to generate natural motion while accounting for joint limits, wearer safety, and energy use.
+
+### Robust control for wearable robots
+
+{% include youtube.html id="u0uSIhfIuNE" title="Robust control for wearable robots" %}
+
+Wearable robots must respond to nonlinear and time-varying disturbances from their users. This project explored combining learning-based and model-based control to handle those disturbances while adapting reference trajectories to the robot's range of motion and the wearer's needs.
+
+## Earlier Research: Soft Sensing and Human–Robot Interaction
+
+Research supported by the NRF biosignal sensor fusion technology development program, with a focus on sensing human motion and muscle activity for robot interaction.
+
+### Wrist gesture recognition using pneumatic mechanomyography
+
+![Gesture recognition accuracy](images/gesture_static/GesturesAccuracy.png)
+
+We investigated high-resolution features from the passive elastic elements around the wrist for hand gesture recognition. In a study with 10 participants and five-fold cross-validation, the system classified 28 gestures with 98.0% accuracy. The eight-channel sEMG baseline (Delsys, USA) achieved 93.1% accuracy under the reported evaluation.
+
+Published in [*IEEE Transactions on Industrial Informatics*](https://ieeexplore.ieee.org/abstract/document/10136753).
+
+### Gesture recognition during arm movement
+
+{% include youtube.html id="spRBrlzH1nE" title="Gesture recognition during arm movement" %}
+
+This project investigated how dynamic arm movements affect gesture recognition outside controlled conditions. The work examined sensor placement, training strategies, and classification methods, as well as rejection of out-of-distribution inputs to improve robustness in practical use.
+
+### Real-time gait analysis with soft sensors
+
+{% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis demonstration" %}
+{% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis demonstration" %}
+
+This work explored ergonomic soft sensors for identifying gait phases and walking modes. The aim was to reduce dependence on rigid sensor mounts and their associated alignment issues while enabling real-time analysis.
+
+Related early results were presented at [ICCAS 2021](https://ieeexplore.ieee.org/document/9649762) and [IFAC Mechatronics 2022](https://www.sciencedirect.com/science/article/pii/S240589632202612X).
+
+## Selected Coursework
+
+### Momentum Frame: Learning Physics from Momentum Information
+
+{% include youtube.html id="tmLDXB6z8Mc" title="Momentum Frame physics learning demonstration" %}
+
+**CS570 — Artificial Intelligence and Machine Learning**
+
+This course project explored a learned alternative to a material point method (MPM) simulation. The model generates a sequence from a single input frame using noise-to-noise learning, a mean squared error objective, and an adversarial objective. In the course evaluation, it ran more than 50 times faster than the baseline MPM implementation.
+
+A [CoordConv layer](https://arxiv.org/abs/1807.03247) helped the network represent spatial information relevant to potential energy. The adversarial objective was used to reduce distribution drift during repeated prediction.
