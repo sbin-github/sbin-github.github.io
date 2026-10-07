@@ -1,22 +1,18 @@
-<head>
-<style>
-mark { 
-  background-color: white;
-  color: rgb(51, 87, 128);
-}
-</style>
-</head>
-
-
-<h2> Human-Computer Interaction </h2>
-**\*This project is being funded by NRF (생체신호센서융합기술개발사업)**
-
 ---
-### <mark>(CS570) Momentum Frame: Physics Learned from Momentum Frame</mark>
-{% include youtubePlayer.html id="tmLDXB6z8Mc" %}
-<br>
-Traditional physics simulations such as MPM requires huge resource for its computation as it treats information from each point individually. We suggested a compressed and fast physics simulation based on deep learning with N2N learning and MSE + GAN loss. The network is leveraged to reconstruct physix from MSE loss, and GAN structure prevent collapse from repeated generation by preventing transition of the input distribution. Also, [CoordConv layer](https://arxiv.org/abs/1807.03247) was introduced to teach potentioal energy and could highly improve the result quality. The model generate whole sequence from a single frame input more than 50 times faster than a baseline MPM method.
-<br>
-Details will be released later.
-
+layout: default
+title: Coursework
 ---
+
+# Selected Coursework
+
+## Momentum Frame: Learning Physics from Momentum Information
+
+{% include youtube.html id="tmLDXB6z8Mc" title="Momentum Frame physics learning demonstration" %}
+
+**CS570 — Artificial Intelligence and Machine Learning**
+
+This course project explored a learned alternative to a material point method (MPM) simulation. The model generates a sequence from a single input frame using noise-to-noise learning, a mean squared error objective, and an adversarial objective. In the course evaluation, it ran more than 50 times faster than the baseline MPM implementation.
+
+The mean squared error objective supported reconstruction of the simulated dynamics, while the adversarial objective helped reduce distribution drift during repeated prediction. A [CoordConv layer](https://arxiv.org/abs/1807.03247) improved the representation of spatial information relevant to potential energy.
+
+[See the full research overview](projects).

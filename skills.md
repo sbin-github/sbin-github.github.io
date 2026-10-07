@@ -1,78 +1,51 @@
-<head>
-<style>
-mark { 
-  background-color: white;
-  color: rgb(51, 87, 128);
-}
-</style>
-</head>
-
-
-<h1> SKILLS </h1>
-
-<hr style="height:3px; background-color:black; border:0;">
-
-### <mark>Machine learning</mark>
-- Implementation of ML in any problem
-- Solving noisy real-world problems using ML
-
-<!-- (You can see the [#Projects tab](/projects) to look over my projects using ML) -->
-
-
-<img src="images/rl/rl_alg_new.png?raw=true"/>
-
+---
+layout: default
+title: Skills
 ---
 
-### <mark>Simulation Env. Construction</mark>
-- Developing physics simulation envs based on Isaac Gym/Sim or Mujoco
+# Technical Skills
 
-{% include youtube.html id="Jr3eFuiYdvE" %}
+I work across control, learning, simulation, and hardware integration, with an emphasis on deploying algorithms on physical robots.
 
----
-### <mark>Embedded programming</mark>
-- Various platforms (STM32, Jetson, NI, etc.)
-- Various programming languages (C/C++, Python, RTOS, Labview)
-- ROS2-based control frame design
-- Wired and wireless communication (SPI, I2C, SSI, UDP, TCP/IP, BLE, etc.)
+## Robot Control and Learning
 
-<img src="images/extra/BuildLib.png?raw=true"/>
+- Reinforcement learning for humanoid locomotion and motion imitation
+- Model-based and predictive control for robot motion
+- Actuator modeling, system identification, and sim-to-real transfer
+- Machine learning for noisy sensor signals and real-world classification tasks
 
----
-### <mark>Mechanical system design</mark>
-- Mechanical design for machining or 3D printing
-- End-to-end system design (Including mechanical design, part selecting, hardware debugging and etc.)
+![Learning-based robot control workflow](images/rl/rl_alg_new.png)
 
-<img src="images/extra/MechProduct.png?raw=true" style="width:100%"/>
+## Simulation and Development Tools
 
----
+- Robot simulation and training environments using Isaac Lab, Isaac Sim, Isaac Gym, and MuJoCo
+- Physics-based modeling and domain randomization for robot control
+- Python and C/C++ development
+- ROS 2 integration and robot control software
 
-### <mark>PCB artwork</mark>
-- From datasheets to schematics and PCB
-- Experience in Altium
+{% include youtube.html id="Jr3eFuiYdvE" title="Robot simulation environment demonstration" %}
 
-<img src="images/extra/PCB_Artwork.png?raw=true"/>
+## Embedded Systems and Communication
 
-<!--
-<figure>
-  <img src="images/extra/MechProduct.png?raw=true" style="width:100%">
-  <figcaption align = "center">Wearable experience module, funded by Shinsegae</figcaption>
-  <figcaption>Wearable experience module, funded by Shinsegae</figcaption>
-</figure>
--->
+- Embedded development on STM32, NVIDIA Jetson, and National Instruments platforms
+- Real-time control integration, including EtherCAT-based actuator communication
+- RTOS and LabVIEW experience
+- Wired and wireless interfaces: SPI, I²C, SSI, UDP, TCP/IP, and BLE
 
-<!--
-  ![hello](images/extra/MechProduct.png)
-  <img src="images/extra/MechProduct.png?raw=true"/>
--->
+![Embedded system development example](images/extra/BuildLib.png)
 
-<!-- ---
-### <mark>Rendering and image processing</mark>
-- Image source generating and post-processing
-- Basic skills on Photoshop and Illustrator
+## Mechanical Design and System Integration
 
-<img src="images/extra/imgsources.png?raw=true"/>
+- Mechanical design for machining and additive manufacturing
+- Component selection, assembly, and hardware debugging
+- Integration of mechanical, electronic, sensing, and control subsystems
 
---- -->
+![Mechanical system design examples](images/extra/MechProduct.png)
 
-<!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
-<!-- Remove above link if you don't want to attibute -->
+## Electronics and PCB Design
+
+- Datasheet review, circuit schematics, and PCB layout
+- PCB design using Altium
+- Sensor and embedded electronics integration
+
+![PCB design example](images/extra/PCB_Artwork.png)
