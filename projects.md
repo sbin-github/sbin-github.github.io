@@ -62,11 +62,11 @@ Exploring how learning-based lower-body control can coordinate with model-based 
 
 **Key themes:** balance · whole-body coordination · model-based control · precise manipulation.
 
-### Actuator modeling and real-time integration (2026–present)
+### Hardware-aware control and system design (2026–present)
 
-Characterizing drivetrain behavior and integrating learned policies with low-level control software. These are essential system-level considerations for reliable and reproducible robot performance.
+I work at the interface between actuation, robot mechanisms, and control, considering how real hardware constraints affect motion planning, simulation, and deployment. This includes system modeling, engineering optimization, and integration with real-time control software.
 
-**Key themes:** actuator dynamics · real-time control · hardware debugging · simulation interfaces.
+**Key themes:** actuator dynamics · robot mechanism modeling · control-oriented design · sim-to-real integration.
 
 > Other ongoing KIMM research is summarized at a high level; unpublished technical details and internal results are intentionally omitted.
 
