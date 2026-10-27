@@ -43,7 +43,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 
 <div class="feature-grid">
 <div class="feature"><h3>Learning × model-based control</h3><p>Combine data-driven robot skills with optimization, dynamics, and feedback control for physical execution.</p></div>
-<div class="feature"><h3>Actuator-aware sim-to-real</h3><p>Connect motor and drivetrain behavior, identification, simulation, and real-time policy deployment.</p></div>
+<div class="feature"><h3>Hardware-aware robot control</h3><p>Connect actuator and mechanism constraints with simulation, optimization, and real-world robot control.</p></div>
 <div class="feature"><h3>Humanoid whole-body motion</h3><p>Study the coordination of locomotion, balance, and precise upper-body behavior on real humanoids.</p></div>
 <div class="feature"><h3>Human–robot interaction</h3><p>Build on earlier work in wearable robotics, soft sensing, and robust measurement of human motion.</p></div>
 </div>
