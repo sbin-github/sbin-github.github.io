@@ -18,21 +18,26 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 
 <div class="feature-grid">
   <div class="feature">
+    <a href="{{ '/projects' | relative_url }}#public-kairos-demonstrations" aria-label="View KAIROS v0.5 research contribution">
+      <img class="feature-media" src="{{ '/images/kairos-v05-anniversary.jpg' | relative_url }}" alt="Two KAIROS humanoids at KIMM's 50th-anniversary unveiling" width="600" height="399" loading="lazy">
+    </a>
     <p class="pub-meta">KIMM · April 2026 · KAIROS v0.5</p>
-    <h3>Locomotion policy development</h3>
-    <p>I developed the locomotion policy for <strong>KAIROS v0.5</strong>, the humanoid platform presented at KIMM's 50th-anniversary unveiling.</p>
-    <p><a href="https://www.kimm.re.kr/eng/sub011001/view/id/1565">KIMM announcement ↗</a></p>
+    <h3>Locomotion policy · two humanoids</h3>
+    <p>I developed the locomotion policy for KAIROS v0.5 and was responsible for <strong>both humanoid robots</strong> presented at KIMM's 50th-anniversary demonstration.</p>
+    <p><a href="https://www.kimm.re.kr/eng/sub011001/view/id/1565">Official KIMM announcement ↗</a></p>
   </div>
   <div class="feature">
-    <p class="pub-meta">KIMM · September 2026 · KAIROS v0.7 forum demonstration</p>
-    <h3>Locomotion and dancing policies</h3>
-    <p>I developed locomotion and dancing policies for <strong>one of the KAIROS humanoids</strong> demonstrated at the 2026 Global Forum on Mechanical Engineering.</p>
-    <p><a href="https://www.instagram.com/reel/DeitzJTKoXr/">Watch public demonstration ↗</a></p>
+    <a href="https://www.youtube.com/shorts/8QGEmvraAzk" aria-label="Watch the KAIROS forum dance demonstration on YouTube">
+      <img class="feature-media" src="https://img.youtube.com/vi/8QGEmvraAzk/hqdefault.jpg" alt="YouTube video thumbnail for the 2026 KAIROS forum demonstration" width="480" height="360" loading="lazy">
+    </a>
+    <p class="pub-meta">KIMM · September 2026 · Global Forum</p>
+    <h3>Locomotion and dancing policies · one humanoid</h3>
+    <p>I developed locomotion and dancing policies and was responsible for <strong>one KAIROS humanoid</strong> in the 2026 Global Forum on Mechanical Engineering demonstration.</p>
+    <p><a href="https://www.youtube.com/shorts/8QGEmvraAzk">Watch the public demo ↗</a> · <a href="{{ '/projects' | relative_url }}#public-kairos-demonstrations">More videos ↗</a></p>
   </div>
 </div>
 
 [More about my KAIROS work →]({{ '/projects' | relative_url }}#public-kairos-demonstrations)
-
 
 ## Research directions
 
@@ -46,7 +51,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 ## Research experience
 
 **Korea Institute of Machinery and Materials (KIMM)** · Researcher, Advanced Robotics Research Center  
-Developed the locomotion policy for KAIROS v0.5 and locomotion/dancing policies for one KAIROS humanoid demonstrated at the 2026 Global Forum on Mechanical Engineering; ongoing work in sim-to-real and robot control.
+Developed KAIROS v0.5's locomotion policy and was responsible for both demonstration robots at KIMM's 50th anniversary; developed locomotion and dancing policies for one KAIROS robot at the 2026 Global Forum on Mechanical Engineering. Ongoing work in sim-to-real and humanoid control.
 
 **Agency for Defense Development (ADD)** · Ground Technology Research Institute  
 Research in motion planning, nonlinear model predictive control, and engineering optimization.
