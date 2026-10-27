@@ -72,11 +72,11 @@ Characterizing drivetrain behavior and integrating learned policies with low-lev
 
 *For earlier projects, the dates below reflect related published research rather than the exact recording dates of the demonstration videos.*
 
-## Motion planning and numerical optimization · ADD (2024–2025 publications)
+## Motion planning and numerical optimization · ADD (2024–2025)
 
 At the Agency for Defense Development (ADD), my research included nonlinear model predictive control and numerical optimization. Selected conference contributions include [MPPI-based navigation under limited observations]({{ '/publications' | relative_url }}), [multi-vehicle deployment with NMPC]({{ '/publications' | relative_url }}), and QP-based engineering design.
 
-## Wearable robot control · KAIST EXO Lab (2022–2023 publications)
+## Wearable robot control · KAIST EXO Lab (2022–2023)
 
 ### MPC-based stride-to-stride reference generation
 
@@ -96,7 +96,7 @@ Explored transferring human walking styles to wearable robots using [Adversarial
 
 Investigated learning-based and model-based control for systems subject to nonlinear, time-varying disturbances from a human wearer.
 
-## Soft sensing and human–robot interaction (2021–2024 publications)
+## Soft sensing and human–robot interaction (2021–2024)
 
 ### Pneumatic mechanomyography for hand gesture recognition (2023 online / 2024 issue)
 
@@ -112,7 +112,7 @@ Developed a tendon-observation approach to wrist gesture recognition using pneum
 
 Studied the effects of arm movement, sensor placement, and out-of-distribution gestures on classification robustness.
 
-### Soft sensing for gait monitoring (2021–2022 publications)
+### Soft sensing for gait monitoring (2021–2022)
 
 {% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis" %}
 {% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis" %}
