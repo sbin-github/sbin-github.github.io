@@ -1,27 +1,28 @@
 # Seongbin An — Research Portfolio
 
-Source for my personal research website: [sbin-github.github.io](https://sbin-github.github.io/).
+Source for [sbin-github.github.io](https://sbin-github.github.io/), a public research portfolio focused on humanoid robotics, model-based and learning-based control, actuator dynamics, and sim-to-real deployment.
 
-The site presents my background, publications, research, and technical skills, with a current focus on humanoid robotics and robot control at KIMM.
+## Pages
 
-## Content
+- **Home** (`index.md`): introduction, expertise, experience, education, and selected publications.
+- **Research** (`projects.md`): current humanoid research and earlier work, with existing media preserved.
+- **Publications** (`publications.md`): complete categorized bibliography based on the author's supplied Scholar entries.
+- **Skills** (`skills.md`): technical toolbox and hardware/software engineering experience.
+- **Coursework** (`coursework.md`): additional course project detail.
 
-- `index.md`: profile, experience, education, and publications
-- `projects.md`: current research focus and earlier project demonstrations
-- `skills.md`: technical skills and system development experience
-- `coursework.md`: selected course project
-- `_config.yml`: site identity and contact links
-- `_layouts/default.html`: shared layout and navigation
-- `_includes/youtube.html`: responsive video embeds
+## Technology and design
 
-## Publishing
+GitHub Pages with Jekyll and `jekyll-theme-minimal`, a custom shared layout (`_layouts/default.html`) and responsive styles (`assets/css/style.scss`). The navigation and links are keyboard accessible; research videos use lazy-loaded, privacy-enhanced YouTube embeds.
 
-The site uses Jekyll and the [Minimal theme](https://github.com/pages-themes/minimal) on GitHub Pages. Content changes can be reviewed in a branch and pull request before merging into `master`.
+## Editing and publishing
 
-Career dates and publication statuses should be updated only when confirmed. Existing video and image assets accompany the project descriptions.
+1. Make content changes in a feature branch.
+2. Check publication metadata and publication status against the original publisher record and [Google Scholar](https://scholar.google.com/citations?user=_EnZafAAAAAJ&hl=en).
+3. Verify in a GitHub Pages/Jekyll preview, including mobile and embedded videos, before merging into `master`.
+4. Merge the reviewed pull request to publish.
+
+Avoid adding unpublished, proprietary, or institution-restricted project results to the public site.
 
 ## Credits
 
-Based on the [Minimal theme](https://github.com/pages-themes/minimal). See the repository's `LICENSE` for license information.
-
-Original template asset credits: [Pixabay sample portrait](https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/) (Pixabay License) and [rawpixel.com sample illustration](https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm) (Standard Freepik License).
+The site uses the [Minimal theme](https://github.com/pages-themes/minimal); see [LICENSE](LICENSE). Some existing image assets were included in the original site; check their attribution and licenses before redistributing them.
