@@ -17,22 +17,36 @@ description: "Research projects in humanoid robotics, robot control, wearable ro
 
 ### Public KAIROS demonstrations · KIMM
 
-These examples document my individual policy-development contributions to publicly announced KIMM humanoid demonstrations. KAIROS itself is a collaborative effort across KIMM's research team.
+These examples describe my control-policy contributions to public KIMM demonstrations. The KAIROS robots are team-developed platforms; my role was the locomotion and motion-policy work described below.
 
-#### KAIROS v0.5 · Locomotion policy (April 2026)
+#### KAIROS v0.5 · Locomotion policy for both demonstration robots (April 2026)
 
-**My contribution:** Developed the locomotion policy for **KAIROS v0.5**. This version of KIMM's humanoid was publicly introduced at the institute's 50th-anniversary event in April 2026 and demonstrated basic walking.
+**My contribution:** I developed the **KAIROS v0.5 locomotion policy** and was responsible for **both KAIROS humanoid robots** presented at KIMM's 50th-anniversary unveiling.
+
+<figure class="project-photo">
+  <img src="{{ '/images/kairos-v05-anniversary.jpg' | relative_url }}" alt="Both KAIROS humanoid robots demonstrated during KIMM's 50th-anniversary event" width="600" height="399" loading="lazy">
+  <figcaption>Both KAIROS v0.5 humanoids at KIMM's 50th-anniversary demonstration.</figcaption>
+</figure>
 
 [Official KIMM announcement](https://www.kimm.re.kr/eng/sub011001/view/id/1565)
 
-#### KAIROS v0.7 · Locomotion and dancing policies (September 7, 2026)
+#### KAIROS v0.7 · Locomotion and dancing policies for one forum robot (September 2026)
 
-**My contribution:** Developed the **locomotion and dancing policies for one of the KAIROS humanoids** shown at the **2026 Global Forum on Mechanical Engineering**. The event featured KAIROS v0.7 performing full-body motions, including movements inspired by traditional Korean mask dance.
+**My contribution:** I developed **locomotion and dancing policies for one KAIROS humanoid** demonstrated at the **2026 Global Forum on Mechanical Engineering** and was responsible for that robot during the demonstration, rather than both robots featured at the event.
 
-[Watch the public demonstration on Instagram](https://www.instagram.com/reel/DeitzJTKoXr/) · [Forum announcement (NST)](https://www.nst.re.kr/eng/selectBbsNttView.do?bbsNo=54&key=318&nttNo=52119)
+**Forum demonstration · YouTube Short**
 
-The links show public demonstrations and project context. Specific policy-development responsibilities are my contributions within the broader team effort.
+{% include youtube.html id="8QGEmvraAzk" title="KAIROS locomotion and dancing demonstration — 2026 Global Forum (Short)" portrait=true %}
 
+[Watch the Short on YouTube](https://www.youtube.com/shorts/8QGEmvraAzk)
+
+**Additional forum demonstration video**
+
+{% include youtube.html id="oMeD6C6RK9s" title="KAIROS locomotion and dancing demonstration — 2026 Global Forum" %}
+
+[Watch the additional video on YouTube](https://www.youtube.com/watch?v=oMeD6C6RK9s) · [Instagram forum reel](https://www.instagram.com/reel/DeitzJTKoXr/)
+
+The media links provide public context; responsibility for the control policies described here is my individual contribution within KIMM's broader team effort. The second video was supplied via a YouTube Studio editor link, so external playback depends on its visibility and embedding settings.
 
 ### Learning-based locomotion and sim-to-real
 
