@@ -46,7 +46,7 @@ Summa Cum Laude · 1st of 79 students.
 
 ## Selected publications
 
-- **S. An** et al. [High-Accuracy Hand Gesture Recognition on the Wrist Tendon Group Using Pneumatic Mechanomyography (pMMG)](https://doi.org/10.1109/TII.2023.3280924), *IEEE Transactions on Industrial Informatics*, online 2023 / final issue 2024.
+- **S. An** et al. [High-Accuracy Hand Gesture Recognition on the Wrist Tendon Group Using Pneumatic Mechanomyography (pMMG)](https://ieeexplore.ieee.org/document/10136753), *IEEE Transactions on Industrial Informatics*, online 2023 / final issue 2024.
 - T. Kim, E. Song, **S. An** et al. [Leaf-Inspired FSR Array and Insole-Type Sensor Module for Mobile Three-Dimensional Ground Reaction Force Estimation](https://doi.org/10.1109/ICRA57147.2024.10610058), *ICRA 2024*.
 - **S. An** et al. [QP-Based Optimal Design of Rifling Twist to Reduce Rifling Force](https://scholar.google.com/citations?user=_EnZafAAAAAJ&hl=en), *34th International Symposium on Ballistics*, 2025.
 
