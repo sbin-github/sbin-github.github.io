@@ -1,83 +1,90 @@
 ---
 layout: default
 title: Research
+description: "Research projects in humanoid robotics, robot control, wearable robotics and soft sensing."
 ---
 
-# Research
+<p class="eyebrow">Selected work</p>
 
-My work connects learning-based control, model-based control, and physical robot systems. My current focus is humanoid robotics; my earlier work explored wearable robot control and soft sensing for human–robot interaction.
+# Research projects
 
-## Current Focus: Humanoid Robotics
+<p class="lead">From dynamics, actuators, and feedback control to learned policies deployed on physical robots.</p>
 
-### Learning-based locomotion and sim-to-real transfer
+## Current focus · Humanoid robotics
 
-I work on reinforcement learning for humanoid locomotion, with an emphasis on reliable deployment on physical robots. This includes modeling actuator behavior, designing simulation environments, and accounting for the differences between simulated and real control systems.
+### Learning-based locomotion and sim-to-real
+
+Developing reinforcement-learning methods for humanoid locomotion with an emphasis on physical deployment. The work connects simulation fidelity, actuator dynamics, feedback interfaces, and robust behavior on hardware.
+
+**Key themes:** locomotion RL · system identification · domain randomization · sim-to-real.
 
 ### Coordinated locomotion and manipulation
 
-I am exploring how learning-based control of the lower body can work with model-based control of the arms. The goal is to coordinate balance, positioning, and precise manipulation on humanoids with different actuator characteristics across the body.
+Exploring how learning-based lower-body control can coordinate with model-based upper-body control, particularly when a humanoid has different actuator characteristics across its joints.
 
-### Actuator dynamics and real-time control
+**Key themes:** balance · whole-body coordination · model-based control · precise manipulation.
 
-My work also involves actuator characterization and integration of learned policies with low-level robot control. Understanding the relationship between the drivetrain, feedback controller, and policy is essential for reliable hardware behavior.
+### Actuator modeling and real-time integration
 
-## Earlier Research: Wearable Robot Control
+Characterizing drivetrain behavior and integrating learned policies with low-level control software. These are essential system-level considerations for reliable and reproducible robot performance.
 
-Research at KAIST's EXO Lab, supported by the National Research Foundation of Korea (NRF) project on human motor control theory for wearable robots to overcome gait disorders.
+**Key themes:** actuator dynamics · real-time control · hardware debugging · simulation interfaces.
+
+> Current KIMM research is described at the level that is appropriate for a public portfolio. Detailed results and demonstrations can be added as they are cleared for release.
+
+## Motion planning and numerical optimization
+
+At the Agency for Defense Development (ADD), my research included nonlinear model predictive control and numerical optimization. Selected conference contributions include [MPPI-based navigation under limited observations]({{ '/publications' | relative_url }}), [multi-vehicle deployment with NMPC]({{ '/publications' | relative_url }}), and QP-based engineering design.
+
+## Wearable robot control · KAIST EXO Lab
 
 ### MPC-based stride-to-stride reference generation
 
 {% include youtube.html id="DeFXXFtqL-Y" title="MPC-based stride-to-stride reference generation" %}
 
-This project investigated model predictive control for generating a one-stride reference trajectory for bipedal robots under modeling errors and external disturbances. The reference accounts for zero moment point (ZMP) stability and transitions between gait phases, providing a trajectory for a low-level controller to track.
+Studied model predictive control for one-stride reference trajectories under modeling errors and external disturbances. The formulation considered zero-moment-point stability and gait-phase transitions.
 
-### Transferring human motion to robots with limited degrees of freedom
+### Learning human motion with limited robot degrees of freedom
 
-{% include youtube.html id="wcGt7EAkdVg" title="Human motion transfer to wearable robots" %}
+{% include youtube.html id="wcGt7EAkdVg" title="Human motion transfer to a wearable robot" %}
 
-This work explored transferring human walking styles to wearable robots with limited degrees of freedom using [Adversarial Motion Priors](https://arxiv.org/abs/2104.02180). The aim was to generate natural motion while accounting for joint limits, wearer safety, and energy use.
+Explored transferring human walking styles to wearable robots using [Adversarial Motion Priors](https://arxiv.org/abs/2104.02180), subject to joint, energy, and wearer-safety constraints.
 
 ### Robust control for wearable robots
 
-{% include youtube.html id="u0uSIhfIuNE" title="Robust control for wearable robots" %}
+{% include youtube.html id="u0uSIhfIuNE" title="Robust wearable robot control" %}
 
-Wearable robots must respond to nonlinear and time-varying disturbances from their users. This project explored combining learning-based and model-based control to handle those disturbances while adapting reference trajectories to the robot's range of motion and the wearer's needs.
+Investigated learning-based and model-based control for systems subject to nonlinear, time-varying disturbances from a human wearer.
 
-## Earlier Research: Soft Sensing and Human–Robot Interaction
+## Soft sensing and human–robot interaction
 
-Research supported by the NRF biosignal sensor fusion technology development program, with a focus on sensing human motion and muscle activity for robot interaction.
+### Pneumatic mechanomyography for hand gesture recognition
 
-### Wrist gesture recognition using pneumatic mechanomyography
+![Hand gesture recognition accuracy chart](images/gesture_static/GesturesAccuracy.png)
 
-![Gesture recognition accuracy](images/gesture_static/GesturesAccuracy.png)
+Developed a tendon-observation approach to wrist gesture recognition using pneumatic mechanomyography (pMMG). In the reported evaluation with 10 participants and five-fold cross-validation, 28 gestures were classified with **98.0% accuracy**, compared with **93.1%** for the evaluated eight-channel sEMG baseline.
 
-We investigated high-resolution features from the passive elastic elements around the wrist for hand gesture recognition. In a study with 10 participants and five-fold cross-validation, the system classified 28 gestures with 98.0% accuracy. The eight-channel sEMG baseline (Delsys, USA) achieved 93.1% accuracy under the reported evaluation.
+[Read the paper in IEEE Transactions on Industrial Informatics](https://ieeexplore.ieee.org/document/10136753).
 
-Published in [*IEEE Transactions on Industrial Informatics*](https://ieeexplore.ieee.org/abstract/document/10136753).
+### Robust gesture recognition during arm motion
 
-### Gesture recognition during arm movement
+{% include youtube.html id="spRBrlzH1nE" title="Gesture recognition during dynamic arm movement" %}
 
-{% include youtube.html id="spRBrlzH1nE" title="Gesture recognition during arm movement" %}
+Studied the effects of arm movement, sensor placement, and out-of-distribution gestures on classification robustness.
 
-This project investigated how dynamic arm movements affect gesture recognition outside controlled conditions. The work examined sensor placement, training strategies, and classification methods, as well as rejection of out-of-distribution inputs to improve robustness in practical use.
+### Soft sensing for gait monitoring
 
-### Real-time gait analysis with soft sensors
+{% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis" %}
+{% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis" %}
 
-{% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis demonstration" %}
-{% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis demonstration" %}
+Developed and evaluated soft sensing approaches for real-time gait-phase and motion-state assessment.
 
-This work explored ergonomic soft sensors for identifying gait phases and walking modes. The aim was to reduce dependence on rigid sensor mounts and their associated alignment issues while enabling real-time analysis.
+## Selected earlier course project
 
-Related early results were presented at [ICCAS 2021](https://ieeexplore.ieee.org/document/9649762) and [IFAC Mechatronics 2022](https://www.sciencedirect.com/science/article/pii/S240589632202612X).
+### Momentum Frame · Learning physics from momentum information
 
-## Selected Coursework
+{% include youtube.html id="tmLDXB6z8Mc" title="Momentum Frame demonstration" %}
 
-### Momentum Frame: Learning Physics from Momentum Information
+In KAIST CS570, explored a neural surrogate for material-point-method (MPM) simulation using noise-to-noise learning, reconstruction loss, adversarial objectives, and a [CoordConv layer](https://arxiv.org/abs/1807.03247).
 
-{% include youtube.html id="tmLDXB6z8Mc" title="Momentum Frame physics learning demonstration" %}
-
-**CS570 — Artificial Intelligence and Machine Learning**
-
-This course project explored a learned alternative to a material point method (MPM) simulation. The model generates a sequence from a single input frame using noise-to-noise learning, a mean squared error objective, and an adversarial objective. In the course evaluation, it ran more than 50 times faster than the baseline MPM implementation.
-
-A [CoordConv layer](https://arxiv.org/abs/1807.03247) helped the network represent spatial information relevant to potential energy. The adversarial objective was used to reduce distribution drift during repeated prediction.
+[Technical skills →]({{ '/skills' | relative_url }}) · [Complete publications →]({{ '/publications' | relative_url }})
