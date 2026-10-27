@@ -34,17 +34,19 @@ These examples describe my control-policy contributions to public KIMM demonstra
 
 **My contribution:** I developed **locomotion and dancing policies for one KAIROS humanoid** demonstrated at the **2026 Global Forum on Mechanical Engineering** and was responsible for that robot during the demonstration, rather than both robots featured at the event.
 
-**Forum demonstration · YouTube Short**
+The two recordings below are **different videos** of the KAIROS v0.7 project. My contribution is described above; the individual clips are labeled separately rather than presented as identical demonstrations.
 
-{% include youtube.html id="8QGEmvraAzk" title="KAIROS locomotion and dancing demonstration — 2026 Global Forum (Short)" portrait=true %}
+**Video 1 · KAIROS v0.7 — YouTube Short**
 
-[Watch the Short on YouTube](https://www.youtube.com/shorts/8QGEmvraAzk)
+{% include youtube.html id="8QGEmvraAzk" title="KAIROS v0.7 — Video 1 (YouTube Short)" portrait=true %}
 
-**Additional forum demonstration video**
+[Open Video 1 on YouTube](https://www.youtube.com/shorts/8QGEmvraAzk)
 
-{% include youtube.html id="oMeD6C6RK9s" title="KAIROS locomotion and dancing demonstration — 2026 Global Forum" %}
+**Video 2 · KAIROS v0.7 — separate recording**
 
-[Watch the additional video on YouTube](https://www.youtube.com/watch?v=oMeD6C6RK9s) · [Instagram forum reel](https://www.instagram.com/reel/DeitzJTKoXr/)
+{% include youtube.html id="oMeD6C6RK9s" title="KAIROS v0.7 — Video 2 (separate recording)" %}
+
+[Open Video 2 on YouTube](https://www.youtube.com/watch?v=oMeD6C6RK9s) · [Additional public Instagram reel](https://www.instagram.com/reel/DeitzJTKoXr/)
 
 These demonstrations are part of KIMM's collaborative humanoid program. The responsibilities described above refer specifically to my policy-development and robot-operation contributions.
 
