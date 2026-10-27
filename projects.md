@@ -12,6 +12,28 @@ description: "Research projects in humanoid robotics, robot control, wearable ro
 
 ## Current focus · Humanoid robotics
 
+
+<a id="public-kairos-demonstrations"></a>
+
+### Public KAIROS demonstrations · KIMM
+
+These examples document my individual policy-development contributions to publicly announced KIMM humanoid demonstrations. KAIROS itself is a collaborative effort across KIMM's research team.
+
+#### KAIROS v0.5 · Locomotion policy (April 2026)
+
+**My contribution:** Developed the locomotion policy for **KAIROS v0.5**. This version of KIMM's humanoid was publicly introduced at the institute's 50th-anniversary event in April 2026 and demonstrated basic walking.
+
+[Official KIMM announcement](https://www.kimm.re.kr/eng/sub011001/view/id/1565)
+
+#### KAIROS v0.7 · Locomotion and dancing policies (September 7, 2026)
+
+**My contribution:** Developed the **locomotion and dancing policies for one of the KAIROS humanoids** shown at the **2026 Global Forum on Mechanical Engineering**. The event featured KAIROS v0.7 performing full-body motions, including movements inspired by traditional Korean mask dance.
+
+[Watch the public demonstration on Instagram](https://www.instagram.com/reel/DeitzJTKoXr/) · [Forum announcement (NST)](https://www.nst.re.kr/eng/selectBbsNttView.do?bbsNo=54&key=318&nttNo=52119)
+
+The links show public demonstrations and project context. Specific policy-development responsibilities are my contributions within the broader team effort.
+
+
 ### Learning-based locomotion and sim-to-real
 
 Developing reinforcement-learning methods for humanoid locomotion with an emphasis on physical deployment. The work connects simulation fidelity, actuator dynamics, feedback interfaces, and robust behavior on hardware.
@@ -30,7 +52,7 @@ Characterizing drivetrain behavior and integrating learned policies with low-lev
 
 **Key themes:** actuator dynamics · real-time control · hardware debugging · simulation interfaces.
 
-> Current KIMM research is described at the level that is appropriate for a public portfolio. Detailed results and demonstrations can be added as they are cleared for release.
+> Other ongoing KIMM research is summarized at a high level; unpublished technical details and internal results are intentionally omitted.
 
 ## Motion planning and numerical optimization
 
