@@ -53,7 +53,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 **Korea Institute of Machinery and Materials (KIMM)** · Researcher, Advanced Robotics Research Center  
 Developed KAIROS v0.5's locomotion policy and was responsible for both demonstration robots at KIMM's 50th anniversary; developed locomotion and dancing policies for one KAIROS robot at the 2026 Global Forum on Mechanical Engineering. Ongoing work in sim-to-real and humanoid control.
 
-**Agency for Defense Development (ADD)** · Ground Technology Research Institute  
+**Agency for Defense Development (ADD)**  
 Research in motion planning, nonlinear model predictive control, and engineering optimization.
 
 **KAIST EXO Lab** · Researcher, 2023–2024  
