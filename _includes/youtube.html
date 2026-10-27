@@ -1,4 +1,4 @@
-<figure class="video">
+<figure class="video{% if include.portrait %} video--portrait{% endif %}">
   <div class="video-frame">
     <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
       title="{{ include.title | default: 'Research demonstration' | escape }}"
