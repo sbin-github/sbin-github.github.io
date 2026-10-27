@@ -1,51 +1,55 @@
 ---
 layout: default
 title: Skills
+description: "Robot control, reinforcement learning, simulation, and real-time engineering skills."
 ---
 
-# Technical Skills
+<p class="eyebrow">Technical toolkit</p>
 
-I work across control, learning, simulation, and hardware integration, with an emphasis on deploying algorithms on physical robots.
+# Skills & engineering experience
 
-## Robot Control and Learning
+<p class="lead">A system-level approach to robotics: model the physical system, design the controller, build the software interface, then test behavior on real hardware.</p>
 
-- Reinforcement learning for humanoid locomotion and motion imitation
-- Model-based and predictive control for robot motion
-- Actuator modeling, system identification, and sim-to-real transfer
-- Machine learning for noisy sensor signals and real-world classification tasks
+## Learning and control
+
+- Reinforcement learning for humanoid locomotion, reference tracking, and motion imitation
+- Model-based robot motion control, model predictive control (MPC), and numerical optimization
+- Actuator behavior modeling, system identification, sim-to-real transfer, and domain randomization
+- Learning and signal processing for wearable sensing and physical human–robot interfaces
 
 ![Learning-based robot control workflow](images/rl/rl_alg_new.png)
 
-## Simulation and Development Tools
+## Simulation, programming, and integration
 
-- Robot simulation and training environments using Isaac Lab, Isaac Sim, Isaac Gym, and MuJoCo
-- Physics-based modeling and domain randomization for robot control
-- Python and C/C++ development
-- ROS 2 integration and robot control software
+- **Simulation:** Isaac Lab, Isaac Sim, Isaac Gym, MuJoCo
+- **Programming:** Python, C, C++
+- **Robotics software:** ROS 2, robot control pipelines, simulator-to-hardware integration
+- **Development focus:** measurement, debugging, real-time constraints, repeatable experiments
 
-{% include youtube.html id="Jr3eFuiYdvE" title="Robot simulation environment demonstration" %}
+{% include youtube.html id="Jr3eFuiYdvE" title="Robot simulation and control environment" %}
 
-## Embedded Systems and Communication
+## Real-time, embedded systems, and communication
 
-- Embedded development on STM32, NVIDIA Jetson, and National Instruments platforms
-- Real-time control integration, including EtherCAT-based actuator communication
-- RTOS and LabVIEW experience
-- Wired and wireless interfaces: SPI, I²C, SSI, UDP, TCP/IP, and BLE
+- STM32, NVIDIA Jetson, and National Instruments platforms
+- EtherCAT-based actuator communication and real-time control integration
+- RTOS, LabVIEW, SPI, I²C, SSI, UDP, TCP/IP, BLE
 
 ![Embedded system development example](images/extra/BuildLib.png)
 
-## Mechanical Design and System Integration
+## Hardware and mechanical integration
 
 - Mechanical design for machining and additive manufacturing
-- Component selection, assembly, and hardware debugging
-- Integration of mechanical, electronic, sensing, and control subsystems
+- Component selection, assembly, and multidisciplinary system debugging
+- Integration across mechanisms, sensing, electronics, and controllers
 
-![Mechanical system design examples](images/extra/MechProduct.png)
+![Mechanical system development examples](images/extra/MechProduct.png)
 
-## Electronics and PCB Design
+## Electronics
 
-- Datasheet review, circuit schematics, and PCB layout
-- PCB design using Altium
-- Sensor and embedded electronics integration
+- Circuit schematic design, PCB layout, and datasheet review
+- Altium-based PCB workflows
+- Embedded sensing and electronics integration
 
 ![PCB design example](images/extra/PCB_Artwork.png)
+
+[Research projects →]({{ '/projects' | relative_url }}) · [Publications →]({{ '/publications' | relative_url }})
