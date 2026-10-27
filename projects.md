@@ -46,7 +46,7 @@ These examples describe my control-policy contributions to public KIMM demonstra
 
 [Watch the additional video on YouTube](https://www.youtube.com/watch?v=oMeD6C6RK9s) · [Instagram forum reel](https://www.instagram.com/reel/DeitzJTKoXr/)
 
-The media links provide public context; responsibility for the control policies described here is my individual contribution within KIMM's broader team effort. The second video was supplied via a YouTube Studio editor link, so external playback depends on its visibility and embedding settings.
+These demonstrations are part of KIMM's collaborative humanoid program. The responsibilities described above refer specifically to my policy-development and robot-operation contributions.
 
 ### Learning-based locomotion and sim-to-real
 
