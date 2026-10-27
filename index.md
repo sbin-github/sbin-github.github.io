@@ -21,7 +21,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
     <a href="{{ '/projects' | relative_url }}#public-kairos-demonstrations" aria-label="View KAIROS v0.5 research contribution">
       <img class="feature-media" src="{{ '/images/kairos-v05-anniversary.jpg' | relative_url }}" alt="Two KAIROS humanoids at KIMM's 50th-anniversary unveiling" width="600" height="399" loading="lazy">
     </a>
-    <p class="pub-meta">KIMM · April 2026 · KAIROS v0.5</p>
+    <p class="pub-meta">KIMM · 2026 · KAIROS v0.5</p>
     <h3>Locomotion policy · two humanoids</h3>
     <p>I developed the locomotion policy for KAIROS v0.5 and was responsible for <strong>both humanoid robots</strong> presented at KIMM's 50th-anniversary demonstration.</p>
     <p><a href="https://www.kimm.re.kr/eng/sub011001/view/id/1565">Official KIMM announcement ↗</a></p>
@@ -30,7 +30,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
     <a href="https://www.youtube.com/shorts/8QGEmvraAzk" aria-label="Watch the KAIROS forum dance demonstration on YouTube">
       <img class="feature-media" src="https://img.youtube.com/vi/8QGEmvraAzk/hqdefault.jpg" alt="YouTube video thumbnail for the 2026 KAIROS forum demonstration" width="480" height="360" loading="lazy">
     </a>
-    <p class="pub-meta">KIMM · September 2026 · Global Forum</p>
+    <p class="pub-meta">KIMM · 2026 · Global Forum</p>
     <h3>Locomotion and dancing policies · one humanoid</h3>
     <p>I developed locomotion and dancing policies and was responsible for <strong>one KAIROS humanoid</strong> in the 2026 Global Forum on Mechanical Engineering demonstration.</p>
     <p><a href="https://www.youtube.com/shorts/8QGEmvraAzk">Watch the public demo ↗</a> · <a href="{{ '/projects' | relative_url }}#public-kairos-demonstrations">More videos ↗</a></p>
