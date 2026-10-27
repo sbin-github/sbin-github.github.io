@@ -10,16 +10,16 @@ description: "Research projects in humanoid robotics, robot control, wearable ro
 
 <p class="lead">From dynamics, actuators, and feedback control to learned policies deployed on physical robots.</p>
 
-## Current focus · Humanoid robotics
+## Current focus · Humanoid robotics (2026–present)
 
 
 <a id="public-kairos-demonstrations"></a>
 
-### Public KAIROS demonstrations · KIMM
+### Public KAIROS demonstrations · KIMM (2026)
 
 These examples describe my control-policy contributions to public KIMM demonstrations. The KAIROS robots are team-developed platforms; my role was the locomotion and motion-policy work described below.
 
-#### KAIROS v0.5 · Locomotion policy for both demonstration robots (April 2026)
+#### KAIROS v0.5 · Locomotion policy for both demonstration robots (2026)
 
 **My contribution:** I developed the **KAIROS v0.5 locomotion policy** and was responsible for **both KAIROS humanoid robots** presented at KIMM's 50th-anniversary unveiling.
 
@@ -30,7 +30,7 @@ These examples describe my control-policy contributions to public KIMM demonstra
 
 [Official KIMM announcement](https://www.kimm.re.kr/eng/sub011001/view/id/1565)
 
-#### KAIROS v0.7 · Locomotion and dancing policies for one forum robot (September 2026)
+#### KAIROS v0.7 · Locomotion and dancing policies for one forum robot (2026)
 
 **My contribution:** I developed **locomotion and dancing policies for one KAIROS humanoid** demonstrated at the **2026 Global Forum on Mechanical Engineering** and was responsible for that robot during the demonstration, rather than both robots featured at the event.
 
@@ -50,19 +50,19 @@ The two recordings below are **different videos** of the KAIROS v0.7 project. My
 
 These demonstrations are part of KIMM's collaborative humanoid program. The responsibilities described above refer specifically to my policy-development and robot-operation contributions.
 
-### Learning-based locomotion and sim-to-real
+### Learning-based locomotion and sim-to-real (2026–present)
 
 Developing reinforcement-learning methods for humanoid locomotion with an emphasis on physical deployment. The work connects simulation fidelity, actuator dynamics, feedback interfaces, and robust behavior on hardware.
 
 **Key themes:** locomotion RL · system identification · domain randomization · sim-to-real.
 
-### Coordinated locomotion and manipulation
+### Coordinated locomotion and manipulation (2026–present)
 
 Exploring how learning-based lower-body control can coordinate with model-based upper-body control, particularly when a humanoid has different actuator characteristics across its joints.
 
 **Key themes:** balance · whole-body coordination · model-based control · precise manipulation.
 
-### Actuator modeling and real-time integration
+### Actuator modeling and real-time integration (2026–present)
 
 Characterizing drivetrain behavior and integrating learned policies with low-level control software. These are essential system-level considerations for reliable and reproducible robot performance.
 
@@ -70,11 +70,13 @@ Characterizing drivetrain behavior and integrating learned policies with low-lev
 
 > Other ongoing KIMM research is summarized at a high level; unpublished technical details and internal results are intentionally omitted.
 
-## Motion planning and numerical optimization
+*For earlier projects, the dates below reflect related published research rather than the exact recording dates of the demonstration videos.*
+
+## Motion planning and numerical optimization · ADD (2024–2025 publications)
 
 At the Agency for Defense Development (ADD), my research included nonlinear model predictive control and numerical optimization. Selected conference contributions include [MPPI-based navigation under limited observations]({{ '/publications' | relative_url }}), [multi-vehicle deployment with NMPC]({{ '/publications' | relative_url }}), and QP-based engineering design.
 
-## Wearable robot control · KAIST EXO Lab
+## Wearable robot control · KAIST EXO Lab (2022–2023 publications)
 
 ### MPC-based stride-to-stride reference generation
 
@@ -94,9 +96,9 @@ Explored transferring human walking styles to wearable robots using [Adversarial
 
 Investigated learning-based and model-based control for systems subject to nonlinear, time-varying disturbances from a human wearer.
 
-## Soft sensing and human–robot interaction
+## Soft sensing and human–robot interaction (2021–2024 publications)
 
-### Pneumatic mechanomyography for hand gesture recognition
+### Pneumatic mechanomyography for hand gesture recognition (2023 online / 2024 issue)
 
 ![Hand gesture recognition accuracy chart](images/gesture_static/GesturesAccuracy.png)
 
@@ -110,7 +112,7 @@ Developed a tendon-observation approach to wrist gesture recognition using pneum
 
 Studied the effects of arm movement, sensor placement, and out-of-distribution gestures on classification robustness.
 
-### Soft sensing for gait monitoring
+### Soft sensing for gait monitoring (2021–2022 publications)
 
 {% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis" %}
 {% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis" %}
