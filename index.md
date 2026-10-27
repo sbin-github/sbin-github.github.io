@@ -14,6 +14,26 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 
 <div class="cta-row"><a href="{{ '/projects' | relative_url }}">Explore research →</a><a href="{{ '/publications' | relative_url }}">Publications</a><a href="mailto:{{ site.author.email }}">Contact</a></div>
 
+## Featured humanoid contributions · KAIROS
+
+<div class="feature-grid">
+  <div class="feature">
+    <p class="pub-meta">KIMM · April 2026 · KAIROS v0.5</p>
+    <h3>Locomotion policy development</h3>
+    <p>I developed the locomotion policy for <strong>KAIROS v0.5</strong>, the humanoid platform presented at KIMM's 50th-anniversary unveiling.</p>
+    <p><a href="https://www.kimm.re.kr/eng/sub011001/view/id/1565">KIMM announcement ↗</a></p>
+  </div>
+  <div class="feature">
+    <p class="pub-meta">KIMM · September 2026 · KAIROS v0.7 forum demonstration</p>
+    <h3>Locomotion and dancing policies</h3>
+    <p>I developed locomotion and dancing policies for <strong>one of the KAIROS humanoids</strong> demonstrated at the 2026 Global Forum on Mechanical Engineering.</p>
+    <p><a href="https://www.instagram.com/reel/DeitzJTKoXr/">Watch public demonstration ↗</a></p>
+  </div>
+</div>
+
+[More about my KAIROS work →]({{ '/projects' | relative_url }}#public-kairos-demonstrations)
+
+
 ## Research directions
 
 <div class="feature-grid">
@@ -26,7 +46,7 @@ description: "Seongbin An — robotics researcher working on humanoid control, m
 ## Research experience
 
 **Korea Institute of Machinery and Materials (KIMM)** · Researcher, Advanced Robotics Research Center  
-Humanoid control, reinforcement learning, actuator dynamics, simulation, and real-hardware deployment.
+Developed the locomotion policy for KAIROS v0.5 and locomotion/dancing policies for one KAIROS humanoid demonstrated at the 2026 Global Forum on Mechanical Engineering; ongoing work in sim-to-real and robot control.
 
 **Agency for Defense Development (ADD)** · Ground Technology Research Institute  
 Research in motion planning, nonlinear model predictive control, and engineering optimization.
