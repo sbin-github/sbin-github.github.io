@@ -117,6 +117,7 @@ Studied the effects of arm movement, sensor placement, and out-of-distribution g
 
 Developed and evaluated soft sensing approaches for real-time gait-phase and motion-state assessment.
 
+{% comment %}
 ## Selected earlier course project
 
 ### Momentum Frame · Learning physics from momentum information
@@ -124,5 +125,6 @@ Developed and evaluated soft sensing approaches for real-time gait-phase and mot
 {% include youtube.html id="tmLDXB6z8Mc" title="Momentum Frame demonstration" %}
 
 In KAIST CS570, explored a neural surrogate for material-point-method (MPM) simulation using noise-to-noise learning, reconstruction loss, adversarial objectives, and a [CoordConv layer](https://arxiv.org/abs/1807.03247).
+{% endcomment %}
 
 [Technical skills →]({{ '/skills' | relative_url }}) · [Complete publications →]({{ '/publications' | relative_url }})
