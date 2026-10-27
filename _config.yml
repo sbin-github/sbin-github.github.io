@@ -1,13 +1,14 @@
 title: Seongbin An
+tagline: Robotics Researcher · Humanoid Control
+description: "Research portfolio of Seongbin An: humanoid control, reinforcement learning, model-based control, actuator dynamics and sim-to-real robotics."
 logo: "/images/profile_MS_sq.jpeg"
-description: >
-  Robotics researcher at KIMM.<br>
-  Humanoid control, reinforcement learning, and sim-to-real transfer.<br><br>
-  <a href="mailto:sbin@kaist.ac.kr">Email</a><br>
-  <a href="https://scholar.google.com/citations?user=_EnZafAAAAAJ&hl=en">Google Scholar</a><br>
-  <a href="https://github.com/sbin-github">GitHub</a>
 url: "https://sbin-github.github.io"
 lang: en-US
 theme: jekyll-theme-minimal
+author:
+  name: Seongbin An
+  email: sbin@kaist.ac.kr
+scholar_url: "https://scholar.google.com/citations?user=_EnZafAAAAAJ&hl=en"
+github_url: "https://github.com/sbin-github"
 exclude:
   - sample_page.md
