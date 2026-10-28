@@ -93,3 +93,21 @@ pre{max-width:100%;overflow-x:auto;padding:18px;background:#f6f7f8}code{font-siz
     font-size: .73rem;
   }
 }
+
+/* Comfortable academic reading width: wrap paragraphs naturally, not with manual breaks. */
+.site-main {
+  max-width: 760px;
+  margin-inline: auto;
+}
+.site-main p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.site-main .research-note {
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.65;
+  margin: 22px 0 14px;
+}
