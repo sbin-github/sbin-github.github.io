@@ -1,10 +1,10 @@
 <figure class="video{% if include.portrait %} video--portrait{% endif %}">
   <div class="video-frame">
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id | escape }}"
       title="{{ include.title | default: 'Research demonstration' | escape }}"
       loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
   </div>
-  {% if include.title %}<figcaption>{{ include.title | escape }}</figcaption>{% endif %}
+  <figcaption>{{ include.title | default: 'Research demonstration' | escape }} <a href="https://www.youtube.com/watch?v={{ include.id | escape }}" aria-label="Watch {{ include.title | default: 'research demonstration' | escape }} on YouTube">Watch on YouTube</a></figcaption>
 </figure>
