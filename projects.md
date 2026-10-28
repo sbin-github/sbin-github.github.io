@@ -61,7 +61,7 @@ Characterizing drivetrain behavior and integrating learned policies with low-lev
 
 **Key themes:** actuator dynamics · real-time control · hardware debugging · simulation interfaces.
 
-> Other ongoing KIMM research is summarized at a high level; unpublished technical details and internal results are intentionally omitted.
+<p class="research-note">Other ongoing KIMM research is summarized at a high level; unpublished technical details and internal results are intentionally omitted.</p>
 
 *For earlier projects, the dates below reflect related published research rather than the exact recording dates of the demonstration videos.*
 
