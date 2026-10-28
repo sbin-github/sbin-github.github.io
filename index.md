@@ -61,6 +61,7 @@ Summa Cum Laude · 1st of 79 students.
 {% if pub.selected %}
 {% include citation.html pub=pub %}
 {% endif %}
+{% endfor %}
 </ol>
 
 <p class="publication-nav"><a href="{{ '/publications' | relative_url }}">Complete publication list</a></p>
