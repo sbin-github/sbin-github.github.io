@@ -45,3 +45,51 @@ pre{max-width:100%;overflow-x:auto;padding:18px;background:#f6f7f8}code{font-siz
 @media(max-width:720px){.site-shell{width:calc(100% - 40px)}.site-header{align-items:flex-start;flex-direction:column;gap:16px;padding-top:22px}.site-nav{gap:20px}.site-main{padding:34px 0 44px}.site-main h2{font-size:1.64rem;margin-top:44px}.project-grid,.home-work,.media-pair{grid-template-columns:1fr;gap:22px}.section-date{display:block;margin:7px 0 0}.project{margin-bottom:34px}.site-footer{flex-direction:column;gap:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{font-size:11pt}.site-shell{width:100%}.site-header,.site-footer,.skip-link{display:none}.site-main{padding:0}a{color:inherit}.project-grid,.home-work{display:block}h2,h3{break-after:avoid}.video{break-inside:avoid}}
+
+/* Keep the anniversary caption no wider than its photograph. */
+.site-main .project-photo {
+  width: min(100%, 600px);
+}
+.site-main .project-photo figcaption {
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Two compact, equally sized portrait Shorts, including on mobile. */
+.shorts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+  width: 100%;
+  max-width: 480px;
+  margin: 22px 0 28px;
+}
+.shorts-grid .video--portrait {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+.shorts-grid .video-frame {
+  aspect-ratio: 9 / 16;
+}
+.shorts-grid .video figcaption {
+  font-size: .78rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+.shorts-grid .video figcaption a {
+  display: block;
+  margin-left: 0;
+}
+@media (max-width: 720px) {
+  .shorts-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  .shorts-grid .video figcaption {
+    font-size: .73rem;
+  }
+}
