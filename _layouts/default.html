@@ -3,47 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102434">
+  <meta name="theme-color" content="#ffffff">
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="site-shell">
-    <aside class="site-sidebar" aria-label="Researcher profile">
-      <div>
-        {% if site.logo %}
-        <a href="{{ '/' | relative_url }}" class="portrait-link" aria-label="Home">
-          <img class="portrait" src="{{ site.logo | relative_url }}" alt="Portrait of Seongbin An" width="128" height="128">
-        </a>
-        {% endif %}
-        <p class="identity-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
-        <p class="identity-role">{{ site.tagline }}</p>
-        <p class="identity-org">Korea Institute of Machinery and Materials<br>(KIMM)</p>
-      </div>
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home <span aria-hidden="true">↗</span></a>
-        <a href="{{ '/projects' | relative_url }}" {% if page.url contains 'projects' %}aria-current="page"{% endif %}>Research <span aria-hidden="true">↗</span></a>
-        <a href="{{ '/publications' | relative_url }}" {% if page.url contains 'publications' %}aria-current="page"{% endif %}>Publications <span aria-hidden="true">↗</span></a>
-        <a href="{{ '/skills' | relative_url }}" {% if page.url contains 'skills' %}aria-current="page"{% endif %}>Skills <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/projects' | relative_url }}" {% if page.url contains 'projects' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/publications' | relative_url }}" {% if page.url contains 'publications' %}aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/skills' | relative_url }}" {% if page.url contains 'skills' %}aria-current="page"{% endif %}>Skills</a>
       </nav>
-      <div class="sidebar-links">
+    </header>
+    <main id="main" class="site-main" tabindex="-1">{{ content }}</main>
+    <footer class="site-footer">
+      <span>© {{ 'now' | date: '%Y' }} {{ site.title }}</span>
+      <nav class="contact-links" aria-label="Contact and profiles">
         <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ site.scholar_url }}" target="_blank" rel="noopener noreferrer">Scholar ↗</a>
-        <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      </div>
-      <p class="sidebar-note">Connecting algorithms, actuators, and physical robot behavior.</p>
-    </aside>
-    <div class="page-column">
-      <div class="mobile-brand"><a href="{{ '/' | relative_url }}">Seongbin An</a><span>Robotics · KIMM</span></div>
-      <main id="main" class="site-main" tabindex="-1">
-        {{ content }}
-      </main>
-      <footer class="site-footer">
-        <span>© {{ 'now' | date: '%Y' }} Seongbin An</span>
-        <span>Built with Jekyll · <a href="https://github.com/sbin-github/sbin-github.github.io">Source</a></span>
-      </footer>
-    </div>
+        <a href="{{ site.scholar_url }}">Google Scholar</a>
+        <a href="{{ site.github_url }}">GitHub</a>
+      </nav>
+    </footer>
   </div>
 </body>
 </html>

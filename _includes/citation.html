@@ -1,0 +1,1 @@
+<li>{{ include.pub.authors }}, “{{ include.pub.title | escape }},” <em>{{ include.pub.venue | escape }}</em>{% if include.pub.details %}, {{ include.pub.details | escape }}{% endif %}, {{ include.pub.year }}{% if include.pub.note %} <span class="citation-note">({{ include.pub.note | escape }})</span>{% endif %}.</li>

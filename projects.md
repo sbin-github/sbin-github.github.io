@@ -21,32 +21,26 @@ These examples describe my control-policy contributions to public KIMM demonstra
 
 #### KAIROS v0.5 · Locomotion policy for both demonstration robots (2026)
 
-**My contribution:** I developed the **KAIROS v0.5 locomotion policy** and was responsible for **both KAIROS humanoid robots** presented at KIMM's 50th-anniversary unveiling.
+I developed the **KAIROS v0.5 locomotion policy** and was responsible for **both KAIROS humanoid robots** presented at KIMM's 50th-anniversary unveiling.
 
 <figure class="project-photo">
   <img src="{{ '/images/kairos-v05-anniversary.jpg' | relative_url }}" alt="Both KAIROS humanoid robots demonstrated during KIMM's 50th-anniversary event" width="600" height="399" loading="lazy">
   <figcaption>Both KAIROS v0.5 humanoids at KIMM's 50th-anniversary demonstration.</figcaption>
 </figure>
 
-[Official KIMM announcement](https://www.kimm.re.kr/eng/sub011001/view/id/1565)
+[KIMM announcement](https://www.kimm.re.kr/eng/sub011001/view/id/1565)
 
 #### KAIROS v0.7 · Locomotion and dancing policies for one forum robot (2026)
 
-**My contribution:** I developed **locomotion and dancing policies for one KAIROS humanoid** demonstrated at the **2026 Global Forum on Mechanical Engineering** and was responsible for that robot during the demonstration, rather than both robots featured at the event.
+I developed **locomotion and dancing policies for one KAIROS humanoid** demonstrated at the **2026 Global Forum on Mechanical Engineering** and was responsible for that robot during the demonstration, rather than both robots featured at the event.
 
-The two recordings below are **different videos** of the KAIROS v0.7 project. My contribution is described above; the individual clips are labeled separately rather than presented as identical demonstrations.
+The two videos document separate recordings from the KAIROS v0.7 project.
 
-**Video 1 · KAIROS v0.7 — YouTube Short**
+{% include youtube.html id="8QGEmvraAzk" title="KAIROS v0.7 · Recording 1 (Short)" portrait=true %}
 
-{% include youtube.html id="8QGEmvraAzk" title="KAIROS v0.7 — Video 1 (YouTube Short)" portrait=true %}
+{% include youtube.html id="oMeD6C6RK9s" title="KAIROS v0.7 · Recording 2" %}
 
-[Open Video 1 on YouTube](https://www.youtube.com/shorts/8QGEmvraAzk)
 
-**Video 2 · KAIROS v0.7 — separate recording**
-
-{% include youtube.html id="oMeD6C6RK9s" title="KAIROS v0.7 — Video 2 (separate recording)" %}
-
-[Open Video 2 on YouTube](https://www.youtube.com/watch?v=oMeD6C6RK9s) · [Additional public Instagram reel](https://www.instagram.com/reel/DeitzJTKoXr/)
 
 These demonstrations are part of KIMM's collaborative humanoid program. The responsibilities described above refer specifically to my policy-development and robot-operation contributions.
 
@@ -74,7 +68,7 @@ Characterizing drivetrain behavior and integrating learned policies with low-lev
 
 ## Motion planning and numerical optimization · ADD (2024–2025)
 
-At the Agency for Defense Development (ADD), my research included nonlinear model predictive control and numerical optimization. Selected conference contributions include [MPPI-based navigation under limited observations]({{ '/publications' | relative_url }}), [multi-vehicle deployment with NMPC]({{ '/publications' | relative_url }}), and QP-based engineering design.
+At ADD, I worked on motion planning and numerical optimization for autonomous systems. The navigation work included NMPC-based path planning for the simultaneous deployment of multiple autonomous vehicles, followed by an MPPI-based driving framework for environments with limited observations. Related conference research addressed QP-based engineering design optimization.
 
 ## Wearable robot control · KAIST EXO Lab (2022–2023)
 
@@ -82,19 +76,19 @@ At the Agency for Defense Development (ADD), my research included nonlinear mode
 
 {% include youtube.html id="DeFXXFtqL-Y" title="MPC-based stride-to-stride reference generation" %}
 
-Studied model predictive control for one-stride reference trajectories under modeling errors and external disturbances. The formulation considered zero-moment-point stability and gait-phase transitions.
+Investigated conservative one-stride reference generation for a bipedal robot subject to modeling errors and external disturbances. Model predictive control generated a trajectory for a lower-level controller to track, with explicit attention to zero-moment-point (ZMP) stability and static transitions between consecutive gait phases. The objective was a feasible stride reference that remained suitable for tracking across phase boundaries.
 
 ### Learning human motion with limited robot degrees of freedom
 
 {% include youtube.html id="wcGt7EAkdVg" title="Human motion transfer to a wearable robot" %}
 
-Explored transferring human walking styles to wearable robots using [Adversarial Motion Priors](https://arxiv.org/abs/2104.02180), subject to joint, energy, and wearer-safety constraints.
+Investigated transferring the character of human walking into a wearable robot with fewer degrees of freedom than its human reference. Adversarial Motion Priors provided a learning-based approach to motion imitation, while robot joint limits, wearer safety, and energy consumption constrained the resulting motion. The central problem was preserving a natural gait without treating imitation as unrestricted pose tracking.
 
 ### Robust control for wearable robots
 
 {% include youtube.html id="u0uSIhfIuNE" title="Robust wearable robot control" %}
 
-Investigated learning-based and model-based control for systems subject to nonlinear, time-varying disturbances from a human wearer.
+A human wearer can introduce disturbances that are unobservable, nonlinear, and non-periodic. This project studied combining learning-based and model-based control to accommodate that interaction while tracking human-inspired joint references. The control problem also considered the wearer's allowable range of motion and the requirements of a wearable system.
 
 ## Soft sensing and human–robot interaction (2021–2024)
 
@@ -102,22 +96,22 @@ Investigated learning-based and model-based control for systems subject to nonli
 
 ![Hand gesture recognition accuracy chart](images/gesture_static/GesturesAccuracy.png)
 
-Developed a tendon-observation approach to wrist gesture recognition using pneumatic mechanomyography (pMMG). In the reported evaluation with 10 participants and five-fold cross-validation, 28 gestures were classified with **98.0% accuracy**, compared with **93.1%** for the evaluated eight-channel sEMG baseline.
+Developed a pneumatic mechanomyography (pMMG) approach to extracting high-resolution information from the passive elastic elements near the wrist tendon group. In a study with **10 participants** and **five-fold cross-validation**, the method classified **28 hand gestures with 98.0% accuracy**, compared with **93.1%** for the evaluated eight-channel sEMG system (Delsys, USA). This work aimed to observe tendon behavior rather than rely only on surface electrical muscle activity.
 
-[Read the paper in IEEE Transactions on Industrial Informatics](https://ieeexplore.ieee.org/document/10136753).
+Published in *IEEE Transactions on Industrial Informatics* (2024 issue; first available online in 2023).
 
 ### Robust gesture recognition during arm motion
 
 {% include youtube.html id="spRBrlzH1nE" title="Gesture recognition during dynamic arm movement" %}
 
-Studied the effects of arm movement, sensor placement, and out-of-distribution gestures on classification robustness.
+Investigated the practical challenges of gesture recognition when the arm is moving rather than held in a fixed laboratory posture. The work examined sensor placement, training strategies, and classification methods under dynamic arm motion. It also considered detecting out-of-distribution inputs instead of forcing every observation into a known gesture class, with the goal of making the recognition pipeline more robust outside controlled test conditions.
 
 ### Soft sensing for gait monitoring (2021–2022)
 
 {% include youtube.html id="vO7Zg8ciqf0" title="Soft sensor gait analysis" %}
 {% include youtube.html id="fRwCSk-NRls" title="Real-time gait analysis" %}
 
-Developed and evaluated soft sensing approaches for real-time gait-phase and motion-state assessment.
+Conventional IMU and encoder-based gait sensing often requires rigid mounting, which can create alignment problems on wearable systems. We designed an ergonomic soft-sensor system and investigated algorithms for real-time identification of gait phases and walking modes. The emphasis was obtaining usable motion information with less reliance on rigid mounting and on achieving real-time interpretation of sensor signals.
 
 {% comment %}
 ## Selected earlier course project
@@ -129,4 +123,4 @@ Developed and evaluated soft sensing approaches for real-time gait-phase and mot
 In KAIST CS570, explored a neural surrogate for material-point-method (MPM) simulation using noise-to-noise learning, reconstruction loss, adversarial objectives, and a [CoordConv layer](https://arxiv.org/abs/1807.03247).
 {% endcomment %}
 
-[Technical skills →]({{ '/skills' | relative_url }}) · [Complete publications →]({{ '/publications' | relative_url }})
+
