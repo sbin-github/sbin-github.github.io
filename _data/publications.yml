@@ -1,0 +1,109 @@
+# Single source for the homepage and Publications page.
+# No links in individual citation entries. Author's Scholar listing is the source.
+- id: pmmg-gesture
+  category: journal
+  year: 2024
+  authors: '<strong>S. An</strong>, J. Feng, E. Song, K. Kong, J. Kim, and H. Choi'
+  title: High-Accuracy Hand Gesture Recognition on the Wrist Tendon Group Using Pneumatic Mechanomyography (pMMG)
+  venue: IEEE Transactions on Industrial Informatics
+  note: online 2023
+  selected: true
+
+- id: qp-design
+  category: international
+  year: 2025
+  authors: '<strong>S. An</strong>, Y. H. Lee, Y. Lee, and S. Choi'
+  title: QP-Based Optimal Design of Rifling Twist to Reduce Rifling Force
+  venue: 34th International Symposium on Ballistics
+  selected: true
+
+- id: leaf-fsr
+  category: international
+  year: 2024
+  authors: 'T. Kim, E. Song, <strong>S. An</strong>, H. Choi, and K. Kong'
+  title: Leaf-Inspired FSR Array and Insole-Type Sensor Module for Mobile Three-Dimensional Ground Reaction Force Estimation
+  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  details: pp. 17459–17464
+  selected: true
+
+- id: muscle-monitoring
+  category: international
+  year: 2023
+  authors: 'E. S. Song, K. Kong, <strong>S. An</strong>, M. Kang, and H. Choi'
+  title: Wearable Robot Embedded Human Muscle Activity Monitoring System and Human-Oriented Joint Torque Calculation
+  venue: 22nd IFAC World Congress
+
+- id: multi-axis-force
+  category: international
+  year: 2022
+  authors: 'E. Song, <strong>S. An</strong>, H. Choi, and K. Kong'
+  title: Soft Sensor Unit for Measurement of Large Scale Multi-Axis Force
+  venue: 13th Asian Control Conference (ASCC)
+  details: pp. 1290–1295
+
+- id: force-myography
+  category: international
+  year: 2022
+  authors: '<strong>S. An</strong>, E. Song, H. Choi, and K. Kong'
+  title: Measurement of Force Myography in Level Gait and Stair Gait
+  venue: IFAC-PapersOnLine
+  details: vol. 55, no. 27, pp. 484–489
+
+- id: wireless-myography
+  category: international
+  year: 2021
+  authors: '<strong>S. An</strong>, H. Choi, and K. Kong'
+  title: Development of Wireless Pneumatic Myography Sensor for Real-Time Muscle Contraction Measurement
+  venue: 21st International Conference on Control, Automation and Systems (ICCAS)
+
+- id: mppi-navigation
+  category: domestic
+  year: 2025
+  authors: '<strong>안성빈</strong>, 우제민, 안세일, 신승제, 채제욱'
+  title: 제한적 관측된 환경에서의 자율주행을 위한 MPPI 기반 주행 프레임워크
+  venue: 한국군사과학기술학회 종합학술대회
+  details: pp. 2209–2210
+
+- id: nmpc-deployment
+  category: domestic
+  year: 2024
+  authors: '<strong>안성빈</strong>, 안세일, 채제욱'
+  title: 다중 자율주행 차량의 동시 배치를 위한 NMPC 기반 경로계획
+  venue: 한국군사과학기술학회 추계학술대회
+
+- id: quadratic-design
+  category: domestic
+  year: 2024
+  authors: '<strong>안성빈</strong>, 안세일, 최성호, 이용선'
+  title: 강선력을 고려한 이차접근법 기반 강선 형상 최적 설계
+  venue: 한국군사과학기술학회 종합학술대회
+
+- id: hysteresis
+  category: domestic
+  year: 2022
+  authors: '송은석, <strong>안성빈</strong>, 공경철, 최현진'
+  title: 소프트 센서의 히스테리시스 보상을 위한 모델링 연구
+  venue: 제17회 한국로봇종합학술대회
+
+- id: adversarial-wearable
+  category: domestic
+  year: 2022
+  authors: '<strong>안성빈</strong>, 공경철, 송은석, 박정수, 최현진'
+  title: 시뮬레이션 환경에서의 적대적 모방학습 기반 웨어러블 로봇 제어의 실현 가능성 연구
+  venue: 제17회 한국로봇종합학술대회
+  details: pp. 191–192
+
+- id: wireless-module
+  category: domestic
+  year: 2021
+  authors: '<strong>안성빈</strong>, 이대호, 최현진, 공경철'
+  title: 웨어러블 장치를 위한 무선 공압 센서 모듈
+  venue: 제16회 한국로봇종합학술대회
+
+- id: masters-thesis
+  category: thesis
+  year: 2023
+  authors: '<strong>S. An</strong>'
+  title: Enhancing Accuracy of Hand Gesture Recognition and Its Application by Observing Tendons Using Pneumatic Mechanomyography (pMMG)
+  venue: KAIST
+  details: Master's thesis
