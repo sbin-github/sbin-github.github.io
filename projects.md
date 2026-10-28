@@ -36,11 +36,10 @@ I developed **locomotion and dancing policies for one KAIROS humanoid** demonstr
 
 The two videos document separate recordings from the KAIROS v0.7 project.
 
-{% include youtube.html id="8QGEmvraAzk" title="KAIROS v0.7 · Recording 1 (Short)" portrait=true %}
-
-{% include youtube.html id="oMeD6C6RK9s" title="KAIROS v0.7 · Recording 2" %}
-
-
+<div class="shorts-grid" aria-label="KAIROS v0.7 demonstration videos">
+  {% include youtube.html id="8QGEmvraAzk" title="KAIROS v0.7 · Recording 1 (Short)" portrait=true %}
+  {% include youtube.html id="oMeD6C6RK9s" title="KAIROS v0.7 · Recording 2" portrait=true %}
+</div>
 
 These demonstrations are part of KIMM's collaborative humanoid program. The responsibilities described above refer specifically to my policy-development and robot-operation contributions.
 
