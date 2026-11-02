@@ -95,11 +95,11 @@ A human wearer can introduce disturbances that are unobservable, nonlinear, and 
 
 ![Hand gesture recognition accuracy chart](images/gesture_static/GesturesAccuracy.png)
 
-Developed a pneumatic mechanomyography (pMMG) approach to extracting high-resolution information from the passive elastic elements near the wrist tendon group. In a study with **10 participants** and **five-fold cross-validation**, the method classified **28 hand gestures with 98.0% accuracy**, compared with **93.1%** for the evaluated eight-channel sEMG system (Delsys, USA). This work aimed to observe tendon behavior rather than rely only on surface electrical muscle activity.
+Developed a pneumatic mechanomyography (pMMG) approach to extract high-resolution information from the passive elastic elements near the wrist tendon group. In a study with **10 participants** and **five-fold cross-validation**, the method classified **28 hand gestures with 98.0% accuracy**, compared with **93.1%** for the evaluated eight-channel sEMG system (Delsys, USA). This work aimed to observe tendon behavior rather than rely only on surface electrical muscle activity.
 
 Published in *IEEE Transactions on Industrial Informatics* (2024 issue; first available online in 2023).
 
-### Robust gesture recognition during arm motion
+### Robust gesture recognition during arm motion (2021)
 
 {% include youtube.html id="spRBrlzH1nE" title="Gesture recognition during dynamic arm movement" %}
 
