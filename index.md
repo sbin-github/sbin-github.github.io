@@ -36,9 +36,9 @@ Humanoid locomotion and whole-body coordination; reinforcement learning and mode
 ## Experience
 
 <dl class="experience">
-  <dt>Korea Institute of Machinery and Materials (KIMM) · 2025-</dt>
+  <dt>Korea Institute of Machinery and Materials (KIMM) · 2025–</dt>
   <dd>Humanoid locomotion policy development, actuator dynamics, and deployment of learned control policies on KAIROS.</dd>
-  <dt>Agency for Defense Development (ADD) · 2024-2025</dt>
+  <dt>Agency for Defense Development (ADD) · 2024–2025</dt>
   <dd>Motion planning, nonlinear model predictive control, and numerical optimization.</dd>
   <dt>KAIST EXO Lab · 2021–2023</dt>
   <dd>Wearable robot control, pneumatic mechanomyography, and soft sensing.</dd>
